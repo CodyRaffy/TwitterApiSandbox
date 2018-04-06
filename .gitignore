@@ -3,4 +3,8 @@
 ################################################################################
 
 /TwitterApiSandbox/obj/Debug
-/TwitterApiSandbox/.vs/TwitterApiSandbox/v15
+/TwitterApiSandbox/.vs
+/TwitterApiSandbox/packages
+/TwitterApiSandbox/Properties/Settings.Designer.cs
+/TwitterApiSandbox/Properties/Settings.settings
+/TwitterApiSandbox/bin/Debug
