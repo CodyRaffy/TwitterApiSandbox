@@ -10,10 +10,10 @@ namespace TwitterApiSandbox
         static void Main(string[] args)
         {
             Auth.SetUserCredentials(
-                Properties.Settings.Default.ConsumerKey,
-                Properties.Settings.Default.ConsumerSecret,
-                Properties.Settings.Default.AccessToken,
-                Properties.Settings.Default.AccessTokenSecret);
+                TwitterConnectionInfo.ConsumerKey,
+                TwitterConnectionInfo.ConsumerSecret,
+                TwitterConnectionInfo.AccessToken,
+                TwitterConnectionInfo.AccessTokenSecret);
 
 
             var searchParameter = new SearchTweetsParameters("Trump")
